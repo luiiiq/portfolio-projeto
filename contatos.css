@@ -15,7 +15,7 @@
     line-height: 1.5;
 }
 .contatos-intro h5::before {
-    content: url(/loboprojeto/img/detalhe.svg);
+    content: url(detalhe.svg);
     position: absolute;
     top: -350px;
     left: 40px;
