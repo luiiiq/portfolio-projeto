@@ -1,0 +1,35 @@
+body {
+    font-family: 'Fira Sans', Arial, sans-serif;
+    margin: 0px;
+    color: #141414;
+}
+
+h1,h2,h3,p {
+    margin: 0px;
+}
+
+ul {
+    padding: 0px;
+    margin:0px ;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.expertise {
+    text-transform:uppercase;
+    font-size: 8rem;
+    color: #e0e0e0;
+    padding: 60px;
+}
+
+strong {
+    color: black;
+}
+
+.item1 h3, .item2 h3{
+    margin: 10px;
+}
