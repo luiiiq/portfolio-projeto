@@ -15,7 +15,7 @@
     line-height: 1.5;
 }
 .contatos-intro h5::before {
-    content: url(./detalhe.svg);
+    content: url(../img/detalhe.svg);
     position: absolute;
     top: -350px;
     left: 40px;
