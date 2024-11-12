@@ -93,14 +93,14 @@
 }
 
 .curso h3::before {
-    background: url(cursos.svg) no-repeat center center;
+    background: url(./cursos.svg) no-repeat center center;
     position: absolute;
     left: -36px;
     top: -4px;
 }
 
 .idioma h3::before {
-    background: url(idiomas.svg) no-repeat center center;
+    background: url(./idiomas.svg) no-repeat center center;
     position: absolute;
     left: -36px;
     top: -4px;
