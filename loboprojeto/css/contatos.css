@@ -1,0 +1,63 @@
+.container2 {
+    max-width: 1200vw;
+    margin: 0px;
+    margin-top: 0px;
+}
+.contatos {
+    margin-top: 0px;
+    background: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.contatos-intro h5 {
+    position: relative;
+    line-height: 1.5;
+}
+.contatos-intro h5::before {
+    content: url(/loboprojeto/img/detalhe.svg);
+    position: absolute;
+    top: -350px;
+    left: 40px;
+}
+
+
+.contatos-intro h5 {
+    grid-column: 1;
+    margin-top:0px;
+    color:#969393;
+    font-size: 25px;
+    text-align: left;
+    margin: 300px 100px;
+}
+
+.contatos-num {
+    color: white;
+    font-size: 43px;
+    margin-bottom:100px;
+    margin-left: 100px;
+    font-weight: bold;
+    line-height: 0.3;
+}
+.line {
+    line-height: 1.2;
+}
+.insta a {
+    color: white;
+}
+.rodape {
+    color: #525252;
+    padding: 60px;
+    font-size: 1.125rem;
+    grid-column: 1/-1;
+}
+@media (max-width:800px) {
+    .contatos {
+        display:grid ;
+        grid-template-columns: 1fr;
+        padding: 0px;
+    }
+    .line {
+        font-size: 2rem;
+    }
+}
